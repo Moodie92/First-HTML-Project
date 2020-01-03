@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<h1>Register Here</h1>
+<a href="Pro1.html">Back</a><br><br>
+
+<div>
+    <form method="post" action="" enctype="text/plain">
+        <label><strong>Name :</strong></label>
+        <input type="text" name="Name" required><br>
+        <label><strong>Email :</strong></label>
+        <input type="email" name="Email" required><br>
+        <label><strong>Password :</strong></label>
+        <input type="password" name="Password " min="5" required><br>
+        <label><strong>Birthday :</strong></label>
+        <input type="date" name="Birthday"> <br>
+        <label><strong>Gender :</strong></label>
+        <label><strong>Male</strong></label>
+        <input type="radio" name="Gender" value="Male">
+        <label><strong>Female</strong></label>
+        <input type="radio" name="Gender" value="Female">
+        <label><strong>Other</strong></label>
+        <input type="radio" name="Gender" value="Other"><br>
+        <label><strong>Social Status :</strong></label>
+        <select name="Social Status" required>
+            <option value="Single">Single</option>
+            <option value="Engaged">Engaged</option>
+            <option value="Married">Married</option>
+            <option value="Open Relationship">Relationship</option>
+            <option value="Others">Others</option>
+        </select><br>
+        <label><strong>Reason To Join :</strong></label><br>
+        <textarea name="reasons" rows="4" cols="30"></textarea> <br>
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+
+    </form>
+</div>
+
+</body>
+</html>
